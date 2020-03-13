@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=AudioVideo;Player;Video;
+Comment=A radio stream manager for use with the xine-server audio server
+Exec=gxsradio %f
+GenericName=gxsradio
+Icon=gxsradio
+MimeType=application/x-gxsradio
+Name=gxsradio
+Type=Application
+X-KDE-StartupNotify=false
+

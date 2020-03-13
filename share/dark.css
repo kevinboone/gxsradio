@@ -1,0 +1,103 @@
+@define-color text_color #00C000;
+@define-color selected_bg_color #00FF00;
+@define-color selected_text_color #000000;
+@define-color disabled_text_color #008000;
+@define-color general_bg_color #000000;
+@define-color caption_bg_color #004000;
+@define-color header_bg_color #A0FFA0;
+@define-color header_text_color #000000;
+
+#streaminfogrid 
+  { 
+  color: @text_color 
+  } 
+#stationlistmainwidget 
+  { 
+  background-color: @general_bg_color; 
+  }
+#stationlist 
+  {  
+  }
+#stationlistwindow 
+  {
+  padding-left: 0; margin-left: 0; 
+  }
+#stationlistscroller 
+  {
+  border-color: @general_bg_color; 
+  background-color: @general_bg_color; 
+  }
+#stationlisttreeview 
+  {
+  color: @text_color; 
+  background-color: @general_background_color; 
+  }
+#stationlisttreeview:selected 
+  {
+  color: @selected_text_color; 
+  background-color: @selected_bg_color; 
+  }
+#stationlisttreeview.view header * 
+  {
+  background-color: @header_bg_color; 
+  color: @header_text_color 
+  }
+#stationlistwindow 
+  {
+  } 
+#stationlistwindow 
+  { 
+  margin-left: 0px; 
+  padding-left: 0px; 
+  } 
+#stationlistmenubar  
+  {
+  }
+menubar 
+  {
+  background: @caption_bg_color; 
+  color: @text_color
+  }
+menu 
+  {
+  background-color: @caption_bg_color; 
+  color: @text_color
+  }
+menu:selected 
+  {
+  background-color: @text_color; 
+  color: @general_bg_color
+  }
+statusbar 
+  {
+  margin-left: 0px; 
+  border-left: 0px; 
+  color: @text_color; 
+  background-color: @caption_bg_color; 
+  }
+menuitem 
+  {
+  color: @text_color; 
+  background: @caption_bg_color
+  }
+menuitem:hover 
+  {
+  color: @selected_text_color; 
+  background: @selected_bg_color
+  }
+menuitem:selected 
+  {
+  color: @selected_text_color; 
+  background: @selected_bg_color
+  }
+menuitem:disabled * 
+  {
+  color: @disabled_text_color; 
+  background: @caption_bg_color
+  }
+separator 
+  {
+  color: @general_bg_color; 
+  background: @text_color
+  }
+

@@ -1,0 +1,6 @@
+- Check maximum dialog size, and allow wrapping of label text
+- Save window size and position
+- Filter columns
+- Widget sizing in dialogs -- too much work for limited gain
+- Toolbar
+
